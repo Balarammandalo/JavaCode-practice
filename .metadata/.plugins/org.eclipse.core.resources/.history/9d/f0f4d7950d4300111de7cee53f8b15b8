@@ -1,0 +1,46 @@
+package com.kodewala.ottPlatform;
+
+public class Netflix implements IOtt {
+
+	@Override
+	public void signUp() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void login() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void subscription() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void cancleSubscripiton() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addMobileNumber() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void logOut() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void searchContent() {
+		// TODO Auto-generated method stub
+		
+	}
+}

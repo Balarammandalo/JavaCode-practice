@@ -1,0 +1,22 @@
+package com.kodewala.collection;
+
+class Employee implements Comparable<Employee>{
+	String name;
+	int id;
+	
+	Employee(String name , int id){
+		this.name = name;
+		this.id = id;
+	}
+	
+	@Override
+	public int compareTo(Employee e) {
+		return this.id - e.id;
+	}
+}
+
+public class HashCollection {
+
+	
+	
+}

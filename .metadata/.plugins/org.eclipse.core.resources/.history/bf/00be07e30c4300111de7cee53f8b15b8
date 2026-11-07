@@ -1,0 +1,12 @@
+package com.kodewala.ottPlatform;
+
+interface IOtt {
+	void signUp();
+	void login();
+	void subscription();
+	void cancleSubscripiton();
+	
+	void addMobileNumber();
+	void logOut();
+	void searchContent();
+}

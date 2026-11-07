@@ -1,0 +1,18 @@
+package com.kodewala.multipleInheritance;
+
+class User implements ZomatoInvoice , SwiggyInvoice{
+	
+	@Override
+	public void getInvoice() {
+		System.out.println("Min you order food you get the invoice");
+	}
+
+}
+
+
+public class UserGetInvoice {
+	public static void main(String[] args) {
+		User ugi = new User();
+		ugi.getInvoice();
+	}
+}

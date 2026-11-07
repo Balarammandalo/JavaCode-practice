@@ -1,0 +1,23 @@
+package com.kodewala.stringmethods;
+
+public class StudentList {
+
+	public static void main(String[] args) {
+		String[] studentList = new String[5];
+		
+		studentList[0] = "shyambihar";
+		studentList[1] = "hari";
+		studentList[2] = "ram";
+		studentList[3] = "harishankar";
+		studentList[4]= "krishna";
+		
+		for(int i=0;i<studentList.length;i++) {
+			int studentLength = studentList[i].length();
+			if(studentLength > 5) {
+				System.out.println(studentList[i]);
+			}
+		}
+
+	}
+
+}

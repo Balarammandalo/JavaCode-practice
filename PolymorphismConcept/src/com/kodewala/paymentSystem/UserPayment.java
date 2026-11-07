@@ -1,0 +1,13 @@
+package com.kodewala.paymentSystem;
+
+public class UserPayment {
+
+	public static void main(String[] args) {
+		
+		PaymentProcessor pp = new PaymentProcessor();
+		
+//		pp.doProcessing(new UpiPayment());
+		pp.doProcessing(new JioMoneyPay());
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.kodewala.stringmethods;
+
+public class StudentList {
+
+	public static void main(String[] args) {
+		String s1 = "ram";
+		String s2 = s1 + "krishna";
+		
+//		String s3 = "ramkrishna";
+//		System.out.println(s2 == s3);
+//		System.out.println(s2.equals(s3));
+		
+//		String s4 = new String("ramkrishna");
+//		String s5 = new String("ramkrishna");
+//		System.out.println(s4 == s5);
+		
+		String s5 = "ram" +"shyam" +"hari";
+		String s6 = "ramshyamhari";
+		String s7 = new String(s6);
+		System.out.println(s5 == s7);
+		
+	}
+
+}

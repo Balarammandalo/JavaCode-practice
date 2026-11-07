@@ -1,0 +1,25 @@
+package com.kodewala.polymorphism;
+
+class Delivery{
+	
+	void doDelivery() {
+		System.out.println("normal delivery your parsel");
+	}
+}
+
+class SpeedPost extends Delivery{
+	@Override
+	protected void doDelivery() {
+		System.out.println("speed post delivery");
+	}
+}
+
+public class DeliveryPolymorphism {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Delivery dd = new SpeedPost();
+		dd.doDelivery();  //1st it check in compileation time check	
+	}
+}

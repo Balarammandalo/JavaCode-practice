@@ -1,0 +1,17 @@
+package com.kodewala.stringmethods;
+
+public class StudentList {
+
+	public static void main(String[] args) {
+		String[] studentList = new String[5];
+		
+		studentList[1] = "hari";
+		studentList[2] = "ram";
+		
+		for(int i=0;i<studentList.length;i++) {
+			System.out.println(studentList[i]);
+		}
+
+	}
+
+}

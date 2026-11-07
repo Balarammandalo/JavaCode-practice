@@ -1,0 +1,23 @@
+package com.kodewala.sibiib;
+
+class Payment{
+	{
+		System.out.println("instance Iib called");
+	}
+	
+	Payment(){
+		System.out.println("Constructor method is called");
+	}
+	
+	static {
+		System.out.println("Static SIB called");
+	}
+}
+
+public class PaymentIibSib {
+
+	public static void main(String[] args) {
+		Payment p = new Payment();
+	}
+
+}

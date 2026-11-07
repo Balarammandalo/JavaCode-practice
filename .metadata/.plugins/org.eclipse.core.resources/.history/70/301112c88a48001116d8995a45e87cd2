@@ -1,0 +1,5 @@
+package com.kodewala.multipleInheritance;
+
+public interface SwiggyInvoice {
+	void getInvoice();
+}

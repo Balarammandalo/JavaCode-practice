@@ -1,0 +1,30 @@
+package com.kodewala.multipleInheritance;
+
+
+public class ClonableInterface{
+	
+	String name;
+	
+	ClonableInterface(String _name){
+		this.name = _name;
+	}
+	
+	@Override
+	public ClonableInterface clone() throws CloneNotSupportedException{
+		return (ClonableInterface) super.clone();
+	}
+	
+	public static void main(String[] args) throws CloneNotSupportedException {
+		ClonableInterface cif = new ClonableInterface("Ram");
+		
+		ClonableInterface cif2 = cif.clone();
+		
+		if(cif2 instanceof Cloneable) {
+			System.out.println("cif2 clonable ");
+		}
+		else {
+			System.out.println("cif2 is not clonable ");
+		}
+	}
+
+}

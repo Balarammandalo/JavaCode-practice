@@ -1,0 +1,35 @@
+package com.kodewala.collection;
+import java.util.*;
+
+class Employee implements Comparable<Employee>{
+	String name;
+	int id;
+	
+	Employee(String name , int id){
+		this.name = name;
+		this.id = id;
+	}
+	
+	@Override
+	public int compareTo(Employee e) {
+		return this.id - e.id;
+	}
+}
+
+public class HashCollection {
+
+	public static void main(String args[]) {
+		List<Employee> res = new ArrayList<>();
+		res.add(new Employee("ram" , 24));
+		res.add(new Employee("shyam" , 44));
+		res.add(new Employee("gopal" , 22));
+		
+		Collections.sort(res);
+		
+		for(Employee e: res) {
+			Sysout.out.println(e);
+		}
+	}
+	
+	
+}

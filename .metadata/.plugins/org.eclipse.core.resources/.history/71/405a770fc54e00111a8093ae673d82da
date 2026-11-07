@@ -1,0 +1,12 @@
+package com.kodewala.customeException;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		
+		String mail = args[0];
+		UserRegisterMail userMail = new UserRegisterMail();
+		userMail.registerEmail(mail);
+	}
+
+}

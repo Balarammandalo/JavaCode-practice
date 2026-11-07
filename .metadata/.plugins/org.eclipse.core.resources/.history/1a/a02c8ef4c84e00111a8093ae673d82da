@@ -1,0 +1,15 @@
+package com.kodewala.customeException;
+
+public class UserRegisterMail {
+	
+	public boolean registerEmail(String _mail)  {
+		
+		String email = _mail;
+		boolean isEmailRegister = true;
+		if(isEmailRegister) {
+			throw new EmailException("Email: " + email + " ALrady Register");
+		}
+		return true;
+	}
+
+}
